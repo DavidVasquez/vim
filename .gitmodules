@@ -88,3 +88,21 @@
 [submodule "bundle/pyflakes-vim"]
 	path = bundle/pyflakes-vim
 	url = git://github.com/gordyt/pyflakes-vim.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule "bundle/NERD_tree"]
+	path = bundle/NERD_tree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/rename.vim"]
+	path = bundle/rename.vim
+	url = https://github.com/danro/rename.vim.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/vim-node"]
+	path = bundle/vim-node
+	url = https://github.com/guileen/vim-node.git

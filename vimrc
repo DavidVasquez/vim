@@ -42,6 +42,29 @@ noremap <leader>cr :CoffeeRun<CR>
 "
 "   ------------------------------------------------------------------------
 "
+"   NERDTREE
+"
+"   nmap <slient> <C-D> :NERDTreeToggle<CR>
+"
+"   ------------------------------------------------------------------------
+"
+"   REVERSE LETTERS
+"
+vnoremap <silent> <Leader>is :<C-U>let old_reg_a=@a<CR>
+ \:let old_reg=@"<CR>
+ \gv"ay
+ \:let @a=substitute(@a, '.\(.*\)\@=',
+ \ '\=@a[strlen(submatch(1))]', 'g')<CR>
+ \gvc<C-R>a<Esc>
+ \:let @a=old_reg_a<CR>
+ \:let @"=old_reg<CR>
+"
+"   ------------------------------------------------------------------------
+"   
+"   DOJO
+"
+"   ------------------------------------------------------------------------
+"   
 "   COLOR SCHEME - set default colorscheme
     if !has('gui_running')
         let g:solarized_termcolors=256

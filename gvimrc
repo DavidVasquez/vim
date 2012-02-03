@@ -23,4 +23,4 @@ set guifont=Consolas\ 12,Consolas:h13.00,DejaVu\ Sans\ Mono\ 11,DejaVu\ Sans\ Mo
 "   DUAL SCHEMES:
 "   solarized (swith via set background=light|dark)
 set background=dark
-colorscheme solarized
+colorscheme blackboard
