@@ -106,3 +106,12 @@
 [submodule "bundle/vim-node"]
 	path = bundle/vim-node
 	url = https://github.com/guileen/vim-node.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-classpath"]
+	path = bundle/vim-classpath
+	url = https://github.com/tpope/vim-classpath.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
