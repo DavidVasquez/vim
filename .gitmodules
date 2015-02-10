@@ -1,6 +1,3 @@
-[submodule "bundle/javascript.vim"]
-	path = bundle/javascript.vim
-	url = https://github.com/serverhorror/javascript.vim.git
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = https://github.com/markabe/bufexplorer.git
@@ -67,9 +64,6 @@
 [submodule "bundle/vim-orgmode"]
 	path = bundle/vim-orgmode
 	url = https://github.com/vim-scripts/vim-orgmode.git
-[submodule "bundle/javaScriptLint.vim"]
-	path = bundle/javaScriptLint.vim
-	url = https://github.com/joestelmach/javaScriptLint.vim.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
