@@ -41,7 +41,7 @@ NOTES:
 
 1. The pep8 submodule depends upon pep8.  To install:
 
-    sudo easy_intall pep8
+    pip install pep8
 
 1.  The vim-preview submodule depends on various other components to support the desired preview
     formats:
