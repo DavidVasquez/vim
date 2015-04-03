@@ -1,10 +1,10 @@
 Installation:
 
     READONLY access:
-        git clone git://github.com/gordyt/vim.git ~/.vim
+        git clone git://github.com/DavidVasquez/vim.git ~/.vim
 
     READ/WRITE access:
-        git clone git@github.com:gordyt/vim.git ~/.vim
+        git clone git@github.com:DavidVasquez/vim.git ~/.vim
 
 Create symlinks:
 
