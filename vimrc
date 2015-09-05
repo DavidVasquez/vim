@@ -44,7 +44,10 @@ noremap <leader>cr :CoffeeRun<CR>
 "
 "   NERDTREE
 "
-"   nmap <slient> <C-D> :NERDTreeToggle<CR>
+"   CTRL-D shortcut
+nmap <silent> <C-D> :NERDTreeToggle<CR>
+"
+nmap <leader>N :NERDTreeToggle<cr>
 "
 "   ------------------------------------------------------------------------
 "
